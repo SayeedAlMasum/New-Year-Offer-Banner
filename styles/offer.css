@@ -1,5 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    font-family:'Merriweather', serif ;
+    font-family:'Merriweather', serif ;  
 }
 .new-year-div{
     color: #FFFFFF;
@@ -13,13 +24,15 @@ padding: 150px;
 .header{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../resources/Banner\ Image.png');
     background-position: center;
-    background-size:970px 500px;
-    background-repeat: no-repeat;    
+    background-size:  cover;
+    background-repeat: no-repeat; 
+    height:60%;
+       
     border-radius: 16px;
     border-radius: 16px;
 
 }
-.first-main{
+.first-main{    
 color: #F00;
 text-align: center;
 font-family: 'Inter', sans-serif;
@@ -36,19 +49,18 @@ line-height: normal;
     color: black;
 }
 .HNY{
-    border: 2px solid rgb(120, 148, 224);
-    width:660px ;
-    height: 410px;
-    margin-left: 100px;
-    margin-right: 10px;
-    
-   
+    border: 2px solid rgb(137, 191, 226);
+    width:50%;  
+    margin: auto;
+  
+  
+     
 }
 .HNY-img{
-    height: 400px;
-    width: 650px;
-    padding: 0%;
-    padding-right: 0%;
+    width: 100%;
+    
+    
+
 }
 .midnight{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../resources/Vectorrr.png');
@@ -91,9 +103,7 @@ padding:60px 80px 60px 100px;
     padding-left: 100px;
     background: none;
     border: none;
-.join-btn:hover
-{background-color: aqua;
-    }
+
 }
 span{
     color: #F00;
@@ -108,11 +118,12 @@ span{
 .address{
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width:700px;
-    height:300px;
-    padding-top: 80px;
+    
     border: 2px solid rgb(120, 148, 224);
-    margin-left: 90px;
+    size: cover;  
+    margin: auto;
+    padding: 100px;
+    
     
 }
 .holiday{
@@ -122,12 +133,11 @@ span{
     margin: 30px;
     gap: 0 25px;
     justify-content: center;
+    position: fixed;
    
     
 }
-   
-    
-}
+               
 .h6-holiday{
     color: #F00;
 font-family: 'Inter';

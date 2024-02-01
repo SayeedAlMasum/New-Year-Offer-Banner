@@ -19,15 +19,13 @@ font-size: 40px;
 font-style: normal;
 font-weight: 900;
 line-height: 50px; /* 131.944% */
-padding: 150px;
+padding: 10%;
 }
 .header{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../resources/Banner\ Image.png');
     background-position: center;
-    background-size:  cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat; 
-    height:60%;
-       
     border-radius: 16px;
     border-radius: 16px;
 
@@ -50,7 +48,7 @@ line-height: normal;
 }
 .HNY{
     border: 2px solid rgb(137, 191, 226);
-    width:50%;  
+    width:60%;  
     margin: auto;   
 }
 .HNY-img{
@@ -59,7 +57,7 @@ line-height: normal;
 .midnight{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../resources/Vectorrr.png');
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
 height: 450px;
 flex-shrink: 0;
     background-repeat: no-repeat;    
@@ -209,29 +207,41 @@ font-weight: 900;
     padding:0 50px 0 50px;
 }
 .many-pic-one{
-    width: 398.77px;
-    height: 345.319px;
+    width: 30%;
+    height: 20%;
     flex-shrink: 0;
-
-
 }
 .many-pic-two{
-    width: 186.841px;
-height: 186.841px;
+    width: 30%;
+height: 20%;
 flex-shrink: 0;
 
 }
 .many-pic-3{
-    width: 229px;
-height: 233px;
+    width: 30%;
+height: 20%;
 flex-shrink: 0;
 
 }
 .many-pic-4{
-    width: 870px;
-height: 100px;
+    width: 80%;
+height: 20%;
 flex-shrink: 0;
 
+}
+.manypic-div1{
+
+}
+.manypic-div2{
+    position: relative;
+    left: 50%;
+
+}
+.manypic-div3{
+position: relative;
+left:50%;
+}
+.manypic-div4{
 
 }
 .best-gift{
@@ -317,4 +327,44 @@ background: #FFF;
     header, footer, main{
         flex-direction: column;
     }
+    .new-year-div{
+        color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 131.944% */
+    padding: 10%;
+    }
+    .off-65{
+        font-size: 50px;
+    }
+    .h{
+        font-size: 25px;
+    }
+    .first-main{
+        line-height: 40px;
+    }
+    .wel-midnight{
+       font-size: 28px;
+       line-height: 40px;
+       
+    }
+    .img-email1{
+        width: 100%;
+        height: 100%;
+    }
+    .subscribe-new{
+        font-size: 22px;
+    }
+    .subscribe-para{
+    font-size: 13px;
+    }
+    .product-des{
+        font-size: 13px;
+    }
+    .holi-sale{
+        font-size: 38px;
+    }
+
 }

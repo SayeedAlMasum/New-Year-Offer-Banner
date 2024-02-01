@@ -112,9 +112,9 @@ span{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     
     border: 2px solid rgb(120, 148, 224);
-    size: cover;  
+    size: 100% 100%;  
     margin: auto;
-    padding: 100px;
+    padding:60px;
     
     
 }
@@ -368,6 +368,9 @@ background: #FFF;
     }
     .holi-sale{
         font-size: 38px;
+    }
+    .address{
+        padding: 10%;
     }
 
 }
